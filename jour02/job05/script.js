@@ -14,6 +14,5 @@ const updateFooterColor = () => {
     requestAnimationFrame(updateFooterColor);
 };
 
-// Démarrer l'animation
 updateFooterColor();
 
