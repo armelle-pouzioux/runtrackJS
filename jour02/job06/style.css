@@ -1,0 +1,32 @@
+/* Mode Konami activé */
+.konami-style {
+    background: #00AEEF; /* Bleu La Plateforme_ */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.konami-style h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    animation: flash 1s infinite alternate;
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    100% { opacity: 0.7; }
+}
+
+#konami-message {
+    display: none; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}
+.konami-style #konami-message {
+    display: block;
+}
