@@ -1,5 +1,5 @@
 function citation() {
-    let texteCitation = document.getElementById("citation").innerHTML;
+    let texteCitation = document.getElementById("citation").textContent;
     console.log(texteCitation);
 }
 
