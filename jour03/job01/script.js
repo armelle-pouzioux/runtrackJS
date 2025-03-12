@@ -7,4 +7,3 @@ $("#toggle").click(function() {
         $("#toggle").text("Afficher la citation");
     }
 });
-    
